@@ -126,6 +126,10 @@ span.subscribers span.number:before {
   margin-top: 0px;
 }
 
+.link .flat-list {
+  padding: 4px 0px 0px 0px;
+}
+
 .flair.flair-pc {
   background-color: #656565;
 }
@@ -152,7 +156,7 @@ span.subscribers span.number:before {
   color: white !important;
 }
 .entry .buttons li a {
-  background: #222;
+  background: #282828;
   text-transform: uppercase;
   border-radius: 3px;
   padding: 3px; 

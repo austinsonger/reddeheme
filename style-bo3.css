@@ -32,7 +32,7 @@ body {
 }
 
 .titlebox blockquote ul li a:hover {
-  color: #ccc;
+  color: #F60;
 }
 
 .titlebox blockquote ul:nth-of-type(1) li {
@@ -250,4 +250,32 @@ form.toggle.flairtoggle {
 
 #sr-header-area .drop-choices.srdrop {
   background: linear-gradient(#111,#333) !important;
+}
+
+.stickied .title {
+  color: #FF7800 !important;
+}
+
+.stickied .title:hover {
+  color: #F60 !important;
+}
+
+.stickied .title:visited:hover {
+  color: #F60 !important;
+}
+
+#searchexpando {
+  background: #444;
+}
+
+.title[href*="spoiler"], .title[href*="leak"] {
+  color: transparent !important;
+}
+
+.title[href*="spoiler"]:hover, .title[href*="leak"]:hover {
+  color: #F44336 !important;
+}
+
+a[href*="spoiler"].title, a[href*="leak"].title, a[href*="spoilers"].title, a[href*="leaks"].title {
+  background: #151515;
 }

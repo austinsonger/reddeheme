@@ -122,6 +122,18 @@ span.subscribers span.number:before {
   background-color: #282828;
 }
 
+.link .flair {
+  margin-top: 0px;
+}
+
+.flair.flair-pc {
+  background-color: #656565;
+}
+
+.flair.flair-pc:before {
+  background-color: #303030;
+}
+
 .listing-page .linklisting .thing.linkflair {
   border-left: 3px #f60 solid !important;
 }
@@ -141,12 +153,20 @@ span.subscribers span.number:before {
 }
 
 .tagline {
-  color: #ccc;
+  color: #999;
   font-size: small;
+  background: #222;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 3px;
 }
 
 .tagline a {
-  color: #CC9069;
+  color: #ddd;
+}
+
+time {
+  color: #ddd;
 }
 
 .thing .title.loggedin:hover, .thing .title.loggedin:focus {
@@ -154,5 +174,5 @@ span.subscribers span.number:before {
 }
 
 .thing .title.loggedin {
-  color: white;
+  color: #FF9E48;
 }

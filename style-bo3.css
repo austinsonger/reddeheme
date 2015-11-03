@@ -151,14 +151,16 @@ span.subscribers span.number:before {
 .thing .title:visited:hover, .thing .title:visited:focus, .thing .title.loggedin.click:hover, .thing .title.loggedin.click:focus { 
   color: white !important;
 }
+.entry .buttons li a {
+  background: #222;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 3px; 
+}
 
 .tagline {
   color: #999;
   font-size: small;
-  background: #222;
-  text-transform: uppercase;
-  border-radius: 3px;
-  padding: 3px;
 }
 
 .tagline a {

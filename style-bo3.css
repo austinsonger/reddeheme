@@ -1,1 +1,63 @@
 
+.titlebox blockquote:first-child {
+  background: linear-gradient(#333,#111);
+  box-shadow: 0px 1px 3px #000;
+  -moz-box-shadow: 0px 1px 3px #000;
+  -webkit-box-shadow: 0px 1px 3px #000;
+  border-top: 1px solid #FF6600;
+}
+
+#header-bottom-right a, #header-bottom-right .separator, #header-bottom-right .user {
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+.titlebox blockquote ul:nth-of-type(1) li:first-child {
+  background-position: 46px 4px;
+  font-size: 11px;
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+.titlebox blockquote ul li {
+  background: #111;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  color: #FF6600;
+}
+
+.titlebox blockquote ul:nth-of-type(1) li {
+  width: 0px;
+}
+
+#sr-header-area .selected a {
+  color: #FF6600;
+}
+
+#sr-header-area {
+  box-shadow: 0px 2px 10px #FF6600,0px 1px 1px black;
+  background: linear-gradient(#333,#111);
+  border-bottom: 1px solid #ff6600;
+}
+
+#sr-more-link {
+  background: linear-gradient(#333,#111)!important;
+}
+
+.tabmenu li.selected a {
+  border: 0px;
+  border-bottom: 0px;
+  background-color: #FF6600;
+  color: black;
+}
+
+.tabmenu li a {
+  padding: 5px 15px 4px;
+  text-transform: uppercase;
+  background-color: #333;
+}
+
+.tabmenu li a:hover {
+  background-color: #777;
+}

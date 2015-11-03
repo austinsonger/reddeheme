@@ -77,12 +77,6 @@ body {
   box-shadow: inset 0 0 10px #000;
   -webkit-box-shadow: inset 0 0 10px #000;
   -moz-box-shadow: inset 0 0 10px #000;
-  opacity: 0.5;
-  transition: opacity 0.7s ease-in-out;
-}
-
-.side:hover {
-  opacity: 1.0;
 }
 
 .side a {
@@ -200,6 +194,7 @@ time {
 .titlebox h6:nth-of-type(1) {
   background-color: #222;
   color: #ccc;
+  border: 0px;
 }
 
 .sidecontentbox .title h1 {

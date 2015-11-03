@@ -118,7 +118,7 @@ span.subscribers span.number:before {
 }
 
 .link {
-  border: 0px !important;
+  border: 1px solid #282828 !important;
   background-color: #282828;
 }
 

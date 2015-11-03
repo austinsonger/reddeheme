@@ -1,3 +1,7 @@
+body {
+  background: #333;
+  color: #ccc;
+}
 
 .titlebox blockquote:first-child {
   background: linear-gradient(#333,#111) !important;
@@ -25,6 +29,10 @@
   border-right: 1px solid #222;
   border-bottom: 1px solid #222;
   color: #FF6600;
+}
+
+.titlebox blockquote ul li a:hover {
+  color: #ccc;
 }
 
 .titlebox blockquote ul:nth-of-type(1) li {
@@ -64,6 +72,7 @@
 
 .side {
   border-left: 3px solid #F60;
+  border-bottom: 3px solid #F60;
   background-color: #111;
   box-shadow: inset 0 0 10px #000;
   -webkit-box-shadow: inset 0 0 10px #000;
@@ -96,4 +105,54 @@ span.subscribers span.number:before {
   content: "";
   margin: -2px;
   padding-right: 5px;
+}
+
+.fancy-toggle-button .remove {
+  color: #777 !important;
+  background: #222 !important;
+}
+
+.fancy-toggle-button .remove:hover {
+  box-shadow: 0px 0px 2px black,0px 0px 0px white,inset 0px 0px 10px rgba(0,0,0,.5),inset 0px 0px 0px rgba(238,240,223,.5),inset 0px 0px 0px rgba(0,0,0,.5);
+  color: #ccc !important;
+}
+
+.link {
+  border: 0px !important;
+  background-color: #282828;
+}
+
+.listing-page .linklisting .thing.linkflair {
+  border-left: 3px #f60 solid !important;
+}
+
+.listing-page .linklisting .thing.linkflair:hover {
+  background-color: #222 !important;
+  box-shadow: 0 0 5px black;
+  border: 1px solid #444 !important;
+}
+
+.thing .title.loggedin:visited, .thing .title.click, .thing .title:visited, .thing .title.loggedin.click, .thing .title.loggedin.click:visited {
+  color: #888;
+}
+
+.thing .title:visited:hover, .thing .title:visited:focus, .thing .title.loggedin.click:hover, .thing .title.loggedin.click:focus { 
+  color: white !important;
+}
+
+.tagline {
+  color: #ccc;
+  font-size: small;
+}
+
+.tagline a {
+  color: #CC9069;
+}
+
+.thing .title.loggedin:hover, .thing .title.loggedin:focus {
+  color: #F60;
+}
+
+.thing .title.loggedin {
+  color: white;
 }

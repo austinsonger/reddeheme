@@ -294,7 +294,7 @@ a[href*="spoiler"].title, a[href*="leak"].title, a[href*="spoilers"].title, a[hr
 }
 
 .RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 

@@ -122,8 +122,14 @@ span.subscribers span.number:before {
 }
 
 .link {
-  border: 1px solid #282828 !important;
-  background-color: #282828;
+  border: 1px solid #1b1b1b !important;
+  background-color: #242424;
+}
+
+.link:hover {
+  background-color: #222 !important;
+  box-shadow: 0 0 5px black;
+  border: 1px solid #444 !important;
 }
 
 .link .flair {
@@ -153,7 +159,7 @@ span.subscribers span.number:before {
 }
 
 .thing .title.loggedin:visited, .thing .title.click, .thing .title:visited, .thing .title.loggedin.click, .thing .title.loggedin.click:visited {
-  color: #888;
+  color: #ccc;
 }
 
 .thing .title:visited:hover, .thing .title:visited:focus, .thing .title.loggedin.click:hover, .thing .title.loggedin.click:focus { 
@@ -189,6 +195,13 @@ time {
 
 .link.promotedlink.promoted {
   background-color: #222;
+  border: none !important;
+  opacity: 0.5;
+  transition: opacity 0.75s ease-in-out;
+}
+
+.link.promotedlink.promoted:hover {
+  opacity: 1.0;
 }
 
 .titlebox h6:nth-of-type(1) {
@@ -279,3 +292,15 @@ form.toggle.flairtoggle {
 a[href*="spoiler"].title, a[href*="leak"].title, a[href*="spoilers"].title, a[href*="leaks"].title {
   background: #151515;
 }
+
+.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+

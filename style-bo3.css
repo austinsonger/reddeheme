@@ -293,7 +293,7 @@ a[href*="spoiler"].title, a[href*="leak"].title, a[href*="spoilers"].title, a[hr
   background: #151515;
 }
 
-.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+.RES-keyNav-activeElement1, .commentarea .RES-keyNav-activeElement1 .md, .commentarea .RES-keyNav-activeElement1.entry .noncollapsed {
   background-color: transparent !important;
 }
 

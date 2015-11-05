@@ -122,7 +122,7 @@ span.subscribers span.number:before {
 }
 
 .link {
-  border: 1px solid #1b1b1b !important;
+  border: 1px solid #1E1E1E !important;
   background-color: #242424;
 }
 
@@ -296,6 +296,109 @@ a[href*="spoiler"].title, a[href*="leak"].title, a[href*="spoilers"].title, a[hr
 .RES-keyNav-activeElement1, .commentarea .RES-keyNav-activeElement1 .md, .commentarea .RES-keyNav-activeElement1.entry .noncollapsed {
   background-color: transparent !important;
 }
+
+.link .usertext .md {
+  border: 0px;
+  background: #202020;
+  max-width: 100%;
+  color: #DDD;
+}
+
+.link .usertext .md a {
+  color: #F60;
+}
+
+.RESDialogSmall > h3 {
+  background-color: #2B2B2B;
+  border-bottom: 1px solid #1E1E1E;
+  color: white;
+}
+
+.usertext-edit .RESDialogSmall .md.RESDialogContents {
+  background-color: #242424 !important;
+  color: #DDD !important;
+}
+
+.RESDialogSmall.livePreview {
+  border: 1px solid #1E1E1E;
+  background: #242424;
+}
+
+.RESSubscriptionButton {
+  color: #F60;
+  border: 1px solid #1e1e1e;
+  transition: all 0.25s ease-in-out;
+  text-transform: uppercase;
+  background-color: #2B2B2B;
+}
+
+a {
+  color: #F60;
+}
+
+.markdownEditor .edit-btn:not(.btn-macro) {
+  border: 1px solid #ddd;
+  background-color: #ccc;
+}
+
+.markdownEditor-wrapper {
+  width: 100%;
+}
+
+.usertext-edit textarea {
+  width: 100%;
+  height: 120px;
+}
+
+textarea {
+  background: #ccc;
+  color: black;
+  border: 1px solid #ddd !important;
+  transition: all 0.25s ease-in-out;
+}
+
+textarea:focus, textarea:hover {
+  border: #fff;
+  box-shadow: inset 0px 0px 5px black
+}
+
+.usertext button {
+  background: #F38740;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #777;
+  transition: all 0.25s ease-in-out;
+  text-transform: uppercase;
+}
+
+.usertext button.save:hover, .usertext button.save:focus {
+  background: #F60;
+}
+
+.thing.comment {
+  background: #242424;
+  border: 1px solid #1E1E1E !important;
+}
+
+.md {
+  color: #ccc;
+}
+
+.comment ul.flat-list.buttons {
+  padding-top: 5px !important;
+}
+
+.comment .author {
+  color: #FF9E48;
+}
+
+span.score {
+  color: #FF9E48;
+}
+
+
+
+
+
 
 
 

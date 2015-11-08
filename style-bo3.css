@@ -215,12 +215,14 @@ time {
 }
 
 .titlebox h1 {
-  background: linear-gradient(#333,#111) !important;
+  background: #242424 !important;
   color: #F60;
   text-transform: uppercase;
   box-shadow: 0px 0px 3px black;
   border-bottom: 1px solid black;
   border-top: 1px solid #444;
+  margin-top: 15px !important;
+  border-radius: 0px !important;
 }
 
 form.toggle.flairtoggle {
@@ -392,6 +394,22 @@ textarea:focus, textarea:hover {
   max-width: 100%;
 }
 
+.md a {
+  color: #F60;
+}
+
+.md a:hover {
+  color: #FF9E48;
+}
+
+.md a:visited {
+  color: #F60;
+}
+
+.comment .md p>a:visited {
+  color: #FFB574 !important;
+}
+
 .comment ul.flat-list.buttons {
   padding-top: 5px !important;
 }
@@ -429,10 +447,35 @@ span.score {
 }
 
 .linkinfo {
-  border: none !important;
-  color: #ccc !important;
-  background: #333 !important;
+  border: none;
+  color: #ccc;
+  background: #242424;
 }
+
+.tagline, .side .content li {
+  line-height: 1.4 !important;
+}
+
+.md code, .md pre {
+  border: 1px solid #555;
+  background-color: #444;
+}
+
+.md blockquote, .md del {
+  color: white;
+}
+
+.md blockquote, .help blockquote {
+  border-left: 3px solid #F60;
+}
+
+
+
+
+
+
+
+
 
 
 

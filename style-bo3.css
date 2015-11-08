@@ -278,7 +278,7 @@ form.toggle.flairtoggle {
 }
 
 #searchexpando {
-  background: #444;
+  background: #333;
 }
 
 .title[href*="spoiler"], .title[href*="leak"] {
@@ -332,7 +332,7 @@ a[href*="spoiler"].title, a[href*="leak"].title, a[href*="spoilers"].title, a[hr
   background-color: #2B2B2B;
 }
 
-.RESSubscriptionButton {
+.RESSubscriptionButton:hover {
   background-color: #222 !important;
 }
 
@@ -404,13 +404,35 @@ span.score {
   color: #FF9E48 !important;
 }
 
+.thing.comment .thing.comment {
+  background: #353535 !important;
+}
 
+.thing.comment .thing.comment .thing.comment {
+  background: #242424 !important;
+}
 
+.thing.comment .thing.comment .thing.comment .thing.comment {
+  background: #353535 !important;
+}
 
+.thing.comment .thing.comment .thing.comment .thing.comment .thing.comment {
+  background: #242424 !important;
+}
 
+.thing.comment .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment {
+  background: #353535 !important;
+}
 
+.thing.comment .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment {
+  background: #242424 !important;
+}
 
-
+.linkinfo {
+  border: none !important;
+  color: #ccc !important;
+  background: #333 !important;
+}
 
 
 

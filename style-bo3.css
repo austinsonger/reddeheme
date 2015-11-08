@@ -245,6 +245,8 @@ form.toggle.flairtoggle {
   margin: 8px 11px 8px 0px;
   padding: 5px;
   text-transform: uppercase;
+  border-bottom-left-radius: 0
+  border-bottom-right-radius: 0;
 }
 
 .titlebox .tagline a {

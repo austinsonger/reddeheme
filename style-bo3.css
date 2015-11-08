@@ -566,6 +566,30 @@ span.score {
   border-radius: 10px;
 }
 
+.sidebox.submit-link .morelink {
+  background-image: url("http://i.imgur.com/kleObLe.png");
+}
+
+.side .submit-text .morelink {
+  background-image: url("http://i.imgur.com/oN2I61U.png");
+}
+
+.sidebox.submit-link .morelink:hover {
+  background-image: url("http://i.imgur.com/kehdsT1.png");
+  margin-left: 5px;
+}
+
+.side .submit-text .morelink:hover {
+  background-image: url("http://i.imgur.com/CEUlLOW.png");
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
 
 
 

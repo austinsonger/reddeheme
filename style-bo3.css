@@ -405,15 +405,15 @@ textarea:focus, textarea:hover {
 }
 
 .md a:hover {
-  color: #FF9E48;
+  color: #FF9E48 !important;
 }
 
 .md a:visited {
-  color: #FFCC7C;
+  color: #FFCC7C !important;
 }
 
 .md a:visited:hover {
-  color: #F60;
+  color: #F60 !important;
 }
 
 .comment .md p>a:visited {

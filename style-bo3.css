@@ -523,7 +523,7 @@ span.score {
 }
 
 .buygold:hover {
-  color: #FFD707;
+  color: #FFD707 !important;
 }
 
 .footer {
@@ -538,7 +538,3 @@ span.score {
 .hover a:hover {
   color: #FF9E48;
 }
-
-
-
-

@@ -291,6 +291,12 @@ a.flairselectbtn {
   background: #333;
 }
 
+#search input[type="text"] {
+  background: #242424;
+  color: #ccc;
+  border: 0;
+}
+
 .title[href*="spoiler"], .title[href*="leak"] {
   color: transparent !important;
 }
@@ -415,7 +421,7 @@ textarea:focus, textarea:hover {
 }
 
 .md a:visited:hover {
-  color: #F60 !important;
+  color: #FF9E48 !important;
 }
 
 .comment .md p>a:visited {
@@ -505,7 +511,12 @@ span.score {
   background: none;
 }
 
-
+.linkinfo .shortlink input {
+  border: 1px solid #1E1E1E;
+  color: #ccc;
+  background: #202020;
+  padding: 4px 6px;
+}
 
 
 

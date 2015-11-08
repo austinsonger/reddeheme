@@ -115,7 +115,7 @@ span.subscribers span.number:before {
   color: #777 !important;
   background: #242424 !important;
   border-radius: 0;
-  box-shadow: 0;
+  box-shadow: 0 0 0;
 }
 
 .fancy-toggle-button .remove:hover {
@@ -558,7 +558,13 @@ span.score {
   color: #ccc;
 }
 
-
+.message-count {
+  background-color: #F60;
+  color: black !important;
+  font-size: 10px;
+  padding: 1px 4px;
+  border-radius: 10px;
+}
 
 
 

@@ -227,26 +227,32 @@ time {
 
 form.toggle.flairtoggle {
   background: linear-gradient(#333,#222) !important;
-  border-left: 1px solid #F60 !important;
-  border-right: 1px solid #F60 !important;
-  border-top: 1px solid #F60 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
   border: 0px;
   color: #ccc;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 
 .titlebox .tagline {
   background: linear-gradient(#222,#111);
-  border-left: 1px solid #F60;
-  border-bottom: 1px solid #F60;
-  border-right: 1px solid #F60;
+  border-left: 0;
+  border-bottom: 0;
+  border-right: 0;
   color: #ccc;
-  margin: 8px 9px 8px 0px;
+  margin: 8px 11px 8px 0px;
   padding: 5px;
   text-transform: uppercase;
 }
 
 .titlebox .tagline a {
   color: #ccc;
+}
+
+a.flairselectbtn {
+  opacity: 1;
 }
 
 .drop-choices a.choice:hover {
@@ -395,7 +401,7 @@ textarea:focus, textarea:hover {
 }
 
 .md a {
-  color: #F60;
+  color: #F60 !important;
 }
 
 .md a:hover {
@@ -403,11 +409,19 @@ textarea:focus, textarea:hover {
 }
 
 .md a:visited {
+  color: #FFCC7C;
+}
+
+.md a:visited:hover {
   color: #F60;
 }
 
 .comment .md p>a:visited {
-  color: #FFB574 !important;
+  color: #FFCC7C !important;
+}
+
+.comment .md p>a:visited:hover {
+  color: #F60 !important;
 }
 
 .comment ul.flat-list.buttons {
@@ -469,7 +483,9 @@ span.score {
   border-left: 3px solid #F60;
 }
 
-
+.expando-button {
+  background: none;
+}
 
 
 

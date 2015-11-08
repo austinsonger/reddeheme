@@ -113,7 +113,9 @@ span.subscribers span.number:before {
 
 .fancy-toggle-button .remove {
   color: #777 !important;
-  background: #222 !important;
+  background: #242424 !important;
+  border-radius: 0;
+  box-shadow: 0;
 }
 
 .fancy-toggle-button .remove:hover {
@@ -538,3 +540,26 @@ span.score {
 .hover a:hover {
   color: #FF9E48;
 }
+
+.usertext.border .usertext-body {
+  background: none;
+}
+
+.infobar {
+  background-color: #242424;
+  border-color: #1E1E1E;
+}
+
+.titlebox, .body {
+  color: #ccc;
+}
+
+.side .md {
+  color: #ccc;
+}
+
+
+
+
+
+

@@ -623,8 +623,19 @@ span.score {
   border-top: 4px solid #F60;
 }
 
+.content.submit .info-notice {
+  background-color: #242424;
+  border: 1px solid #1E1E1E;
+  padding: 9px;
+  margin-bottom: 12px;
+  font-size: larger;
+}
 
-
-
+.submit_text h1 {
+  color: #F60;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 

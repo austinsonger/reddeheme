@@ -414,10 +414,13 @@ textarea:focus, textarea:hover {
   text-shadow: 1px 1px 0px #777;
   transition: all 0.25s ease-in-out;
   text-transform: uppercase;
+  border: 0 !important;
+  outline: none;
 }
 
 .usertext button.save:hover, .usertext button.save:focus, button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
   background: #F60;
+  outline: none;
 }
 
 .thing.comment {
@@ -636,6 +639,15 @@ span.score {
   display: block;
   font-size: 16px;
   font-weight: bold;
+}
+
+.roundfield {
+  width: 500px;
+  background-color: #242424;
+  border-radius: 0;
+  padding: 5px 10px 10px 10px;
+  font-size: large;
+  border: 1px solid #1E1E1E;
 }
 
 

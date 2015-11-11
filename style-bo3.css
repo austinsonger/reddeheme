@@ -411,11 +411,13 @@ textarea:focus, textarea:hover {
 .usertext button, button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background: #F38740;
   font-weight: bold;
-  text-shadow: 1px 1px 0px #777;
+  text-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+  color: black;
   transition: all 0.25s ease-in-out;
   text-transform: uppercase;
   border: 0 !important;
   outline: none;
+  padding: 5px 8px;
 }
 
 .usertext button.save:hover, .usertext button.save:focus, button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {

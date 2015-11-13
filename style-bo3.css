@@ -700,7 +700,9 @@ a.author.may-blank.id-t2_5st2m:after {
   margin-top: 0px !important;
 }
 
-
+.entry .tagline {
+  padding-bottom: 2px;
+}
 
 
 

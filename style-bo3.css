@@ -680,7 +680,12 @@ a.author.may-blank.id-t2_5st2m:after {
   width: 49%;
 }
 
-
+.drop-choices {
+  border: 1px solid #151515;
+  border-top: 1;
+  background: #242424;
+  color: #F60;
+}
 
 
 

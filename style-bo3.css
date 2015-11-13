@@ -168,10 +168,15 @@ span.subscribers span.number:before {
   color: white !important;
 }
 .entry .buttons li a {
-  background: #282828;
+  background: #2E2E2E;
   text-transform: uppercase;
   border-radius: 3px;
-  padding: 3px; 
+  padding: 3px 5px; 
+}
+
+.entry .buttons a:hover {
+  text-decoration: none;
+  color: #ccc;
 }
 
 .tagline {
@@ -424,6 +429,7 @@ textarea:focus, textarea:hover {
 .thing.comment {
   background: #242424 !important;
   border: 1px solid #1E1E1E !important;
+  padding-left: 5px;
 }
 
 .md {
@@ -515,7 +521,6 @@ span.score {
 
 .tagline, .side .content li {
   line-height: 1.4 !important;
-  padding-bottom: 5px;
   overflow: hidden;
 }
 
@@ -691,7 +696,9 @@ a.author.may-blank.id-t2_5st2m:after {
   color: #F60;
 }
 
-
+.comment .child {
+  margin-top: 0px !important;
+}
 
 
 

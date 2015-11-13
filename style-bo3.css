@@ -330,6 +330,7 @@ a[href*="spoiler"].title, a[href*="leak"].title, a[href*="spoilers"].title, a[hr
   background-color: #2B2B2B;
   border-bottom: 1px solid #1E1E1E;
   color: white;
+  padding-bottom: 15px;
 }
 
 .usertext-edit .RESDialogSmall .md.RESDialogContents {
@@ -514,6 +515,8 @@ span.score {
 
 .tagline, .side .content li {
   line-height: 1.4 !important;
+  padding-bottom: 3px;
+  overflow: hidden;
 }
 
 .md code, .md pre {
@@ -650,3 +653,39 @@ span.score {
 .RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
   background-color: transparent !important;
 }
+
+a.author.may-blank.id-t2_5st2m:before, a.author.may-blank.id-t2_97il1:before, a.author.may-blank.id-t2_66laa:before, a.author.may-blank.id-t2_o98d2:before {
+  top: 0;
+}
+
+a.author.may-blank.id-t2_5st2m:after {
+  font-size: initial;
+}
+
+.author[href$="/AutoModerator"]:before {
+  color: #ddd;
+}
+
+.tagline .moderator, .green {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.link .title {
+  margin-bottom: 0px;
+}
+
+.usertext .bottom-area {
+  width: 49%;
+}
+
+
+
+
+
+
+
+
+
+
+

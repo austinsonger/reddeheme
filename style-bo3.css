@@ -515,7 +515,7 @@ span.score {
 
 .tagline, .side .content li {
   line-height: 1.4 !important;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
   overflow: hidden;
 }
 
@@ -655,7 +655,8 @@ span.score {
 }
 
 a.author.may-blank.id-t2_5st2m:before, a.author.may-blank.id-t2_97il1:before, a.author.may-blank.id-t2_66laa:before, a.author.may-blank.id-t2_o98d2:before {
-  top: 0;
+  top: 4px;
+  padding-right: 1px;
 }
 
 a.author.may-blank.id-t2_5st2m:after {
@@ -672,7 +673,7 @@ a.author.may-blank.id-t2_5st2m:after {
 }
 
 .link .title {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .usertext .bottom-area {

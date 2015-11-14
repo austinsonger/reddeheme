@@ -692,6 +692,11 @@ a.author.may-blank.id-t2_5st2m:after {
   color: #F60;
 }
 
+.morecomments {
+  display: block;
+  margin-top: -10px;
+}
+
 .morecomments a {
   color: #F60;
 }

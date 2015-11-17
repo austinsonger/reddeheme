@@ -708,5 +708,33 @@ a.author.may-blank.id-t2_5st2m:after {
   padding-bottom: 2px;
 }
 
+.wiki-page .wiki-page-content .md {
+  background: #242424;
+  border: 1px solid #1E1E1E;
+}
+
+.wiki-page .wiki-page-content .md.wiki h1, .wiki-page .wiki-page-content .md.wiki h2, .wiki-page .wiki-page-content .md.wiki h3, .wiki-page .wiki-page-content .md.wiki h4, .wiki-page .wiki-page-content .md.wiki h5, .wiki-page .wiki-page-content .md.wiki h6 {
+  color: #FF9800;
+}
+
+.wiki-page .wiki-page-content .wiki>.toc>ul {
+  border: 1px solid #333;
+}
+
+div.wiki div.toc>ul:before {
+  color: #FF9800;
+  font-weight: bold;
+}
+
+.wiki-page .wiki-page-content .wiki>.toc>ul ul {
+  border-left: 1px dotted #ccc;
+}
+
+
+
+
+
+
+
 
 

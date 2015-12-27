@@ -7,6 +7,7 @@
 // @author        FatalHydra
 // @require       https://code.jquery.com/jquery-2.1.4.min.js
 // @resource      BO3CSS https://raw.githubusercontent.com/iHydra/reddeheme/master/style-bo3-v.1_0.css
+// @downloadURL   https://raw.githubusercontent.com/iHydra/reddeheme/master/reddeheme-blackops3-dark.user.js
 // @grant         GM_addStyle
 // @grant         GM_getResourceText
 // @run-at        document-start

@@ -526,8 +526,16 @@ span.score {
 }
 
 .md code, .md pre {
-  border: 1px solid #555;
+  border: 1px solid #444;
   background-color: #444;
+}
+
+.md pre code {
+  background-color: #333;
+}
+
+.new-comment .md :not(pre)>code, .link .md :not(pre)>code, .usertext.border .md :not(pre)>code, .new-comment .md pre, .link .md pre, .usertext.border .md pre {
+  background-color: #333; 
 }
 
 .md blockquote, .md del {

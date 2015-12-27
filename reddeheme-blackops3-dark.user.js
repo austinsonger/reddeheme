@@ -3,7 +3,7 @@
 // @namespace     https://github.com/iHydra
 // @version       1.0
 // @description   Theme for /r/BlackOps3 Subreddit
-// @include       *.reddit.com/r/blackops3*
+// @match         *.reddit.com/r/blackops3*
 // @author        FatalHydra
 // @require       https://code.jquery.com/jquery-2.1.4.min.js
 // @resource      BO3CSS https://raw.githubusercontent.com/iHydra/reddeheme/master/style-bo3-v.1_0.css

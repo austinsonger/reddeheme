@@ -734,10 +734,13 @@ div.wiki div.toc>ul:before {
 .nextprev a, .next-suggestions a {
   padding: 3px 5px;
   background: #242424;
-  border: 1px solid #151515;
+  border: 0px;
 }
 
-
+.nextprev a:hover, .next-suggestions a:hover {
+  background: #202020;
+  border: 0px;
+}
 
 
 
